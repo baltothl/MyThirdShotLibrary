@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MyThirdShotLibrary_Example' do
+  pod 'MyThirdShotLibrary', :path => '../'
+
+  target 'MyThirdShotLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
